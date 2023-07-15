@@ -71,6 +71,7 @@
       .img1 {
         padding-top: 85px;
         margin-top: 87.5px;
+        position: relative;
       }
       .img2 {
         padding: 33.5px 33.5px 0px 33.5px;
@@ -104,6 +105,20 @@
         font-weight: 600;
         line-height: normal;
         margin-top: 15px;
+      }
+      .prof {
+        transform: rotate(90deg);
+        color: #000;
+        font-family: PT Serif;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+        position: absolute;
+        top: 27%;
+        right: 8%;
+        z-index: 1;
       }
       @media screen and (max-width: 576px) {
         .text-container {
@@ -145,6 +160,7 @@
             <div class="img1">
               <img src="./photo1.png" alt="" />
               <h3 class="name">Bill Mahoney</h3>
+              <p class="prof">Product owner</p>
             </div>
           </div>
           <div class="member">
